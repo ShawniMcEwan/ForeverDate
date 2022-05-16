@@ -1,0 +1,56 @@
+html {
+    background-image: url("https://images.unsplash.com/photo-1447875569765-2b3db822bec9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80");
+    background-size: cover;
+  }
+  
+  /* RESPONSIVE FORMATTING BASE CODE */
+  
+  * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  
+  /* ADDITIONAL FORMATTING BELOW */
+  
+  .tableheader {
+    font-family: 'Cookie', cursive;
+    font-size: 2.5em;
+    word-spacing: 5px;
+    background-color: hsla(0, 100%, 85%, 0.9);
+    border: 20px solid hsla(30, 100%, 100%, 0.5);
+    color: hsla(0, 100%, 100%, 0.8);
+    margin: 25px 15px;
+    padding: 25px 30px;
+    width: viewport;
+    height: auto;
+  }
+  
+  .question1, .suppinfo {
+    background-color: hsla(0, 100%, 85%, 0.9);
+    color: hsla(0, 100%, 100%, 1.0);
+    width: viewport;
+    height: auto;
+    margin: 25px 15px;
+    padding: 25px 30px;
+  }
+
+  .question1 {
+    border: 14px double hsla(30, 50%, 100%, 0.9);
+}
+
+  .suppinfo {
+      border: 2px dotted white;
+  }
+
+  .suppinfo h2 {
+      text-decoration: underline;
+      text-underline-offset: 7px;
+      text-decoration-style: dotted;
+      text-decoration-thickness: 2px;
+  }
+  
+  .answers {
+    margin: 10px;
+    width: auto;
+  }
